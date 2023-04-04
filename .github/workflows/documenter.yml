@@ -3,6 +3,9 @@ name: Documenter
 on:
   push:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,5 +19,5 @@ jobs:
       - name: Build and deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
+          # DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
         run: julia --project --color=yes make.jl
