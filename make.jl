@@ -6,6 +6,10 @@
 #
 # https://github.com/JuliaDocs/Documenter.jl/compare/mp/at-eval-html
 #
+# Demo is deployed at:
+#
+# https://github.com/JuliaDocs/Documenter.jl/compare/mp/at-eval-html
+#
 using Documenter
 
 # This is an example function that generates a collapsed code block, by
