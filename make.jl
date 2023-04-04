@@ -55,6 +55,5 @@ makedocs(
 # This is just to automatically deploy the example to gh-pages of this repo:
 deploydocs(
     repo = "github.com/mortenpi/documenter-extension-example.git",
-    branch = "master",
     versions = nothing,
 )
