@@ -22,3 +22,19 @@ Main.collapsed_codeblock(
 ```
 
 Suspendisse eros dui, facilisis eu consectetur a, pulvinar ac tellus. Phasellus mollis tincidunt leo id sodales. Curabitur aliquam, lectus vel lobortis mattis, mi augue aliquam turpis, et consequat urna erat egestas mauris. Pellentesque aliquet libero ex, eget rhoncus arcu vestibulum eu. Aenean in tellus vitae tortor ultrices interdum vitae sed quam. Integer tristique interdum orci, ac facilisis lorem posuere sit amet. Sed non venenatis quam. Ut vel arcu vitae metus bibendum dictum laoreet vitae quam. Fusce dapibus, ex euismod finibus luctus, est metus interdum ipsum, vel tristique nunc urna vel mauris. Etiam lacus magna, congue eu lorem nec, maximus aliquet felis. Donec congue justo gravida, dapibus ante in, bibendum libero. Vestibulum placerat velit et hendrerit auctor.
+
+## Collapsed example
+
+Suspendisse eros dui, facilisis eu consectetur a, pulvinar ac tellus. Phasellus mollis tincidunt leo id sodales.
+
+```@collapsed-example
+2 + 2
+```
+
+Suspendisse eros dui, facilisis eu consectetur a, pulvinar ac tellus. Phasellus mollis tincidunt leo id sodales.
+
+```@collapsed-example
+2 + 3
+```
+
+Suspendisse eros dui, facilisis eu consectetur a, pulvinar ac tellus. Phasellus mollis tincidunt leo id sodales.
